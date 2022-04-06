@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55A591BF27FCB0ED001B3C67 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A591BE27FCB0ED001B3C67 /* PhotoPicker.swift */; };
 		55A9F99B27F1659F00C37E2A /* Project2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F99A27F1659F00C37E2A /* Project2App.swift */; };
 		55A9F99D27F1659F00C37E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F99C27F1659F00C37E2A /* ContentView.swift */; };
 		55A9F99F27F1659F00C37E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A9F99E27F1659F00C37E2A /* Assets.xcassets */; };
@@ -14,6 +15,13 @@
 		55A9F9AC27F1659F00C37E2A /* Project2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F9AB27F1659F00C37E2A /* Project2Tests.swift */; };
 		55A9F9B627F1659F00C37E2A /* Project2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F9B527F1659F00C37E2A /* Project2UITests.swift */; };
 		55A9F9B827F1659F00C37E2A /* Project2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F9B727F1659F00C37E2A /* Project2UITestsLaunchTests.swift */; };
+		55A9F9C527F16CC900C37E2A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F9C427F16CC900C37E2A /* City.swift */; };
+		55A9F9C727F16F1000C37E2A /* CityRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F9C627F16F1000C37E2A /* CityRowView.swift */; };
+		55A9F9C927F172AA00C37E2A /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F9C827F172AA00C37E2A /* CityListView.swift */; };
+		55A9F9CB27F173F900C37E2A /* CityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F9CA27F173F900C37E2A /* CityDetailView.swift */; };
+		55DF8AD627F2588E0036BD50 /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF8AD527F2588E0036BD50 /* FavoriteButtonView.swift */; };
+		55DF8AD827F272170036BD50 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF8AD727F272170036BD50 /* AddView.swift */; };
+		55DF8ADA27F272A20036BD50 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF8AD927F272A20036BD50 /* AddButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55A591BE27FCB0ED001B3C67 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		55A9F99727F1659F00C37E2A /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A9F99A27F1659F00C37E2A /* Project2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2App.swift; sourceTree = "<group>"; };
 		55A9F99C27F1659F00C37E2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,13 @@
 		55A9F9B127F1659F00C37E2A /* Project2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A9F9B527F1659F00C37E2A /* Project2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2UITests.swift; sourceTree = "<group>"; };
 		55A9F9B727F1659F00C37E2A /* Project2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55A9F9C427F16CC900C37E2A /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		55A9F9C627F16F1000C37E2A /* CityRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRowView.swift; sourceTree = "<group>"; };
+		55A9F9C827F172AA00C37E2A /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
+		55A9F9CA27F173F900C37E2A /* CityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailView.swift; sourceTree = "<group>"; };
+		55DF8AD527F2588E0036BD50 /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
+		55DF8AD727F272170036BD50 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		55DF8AD927F272A20036BD50 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,14 @@
 			children = (
 				55A9F99A27F1659F00C37E2A /* Project2App.swift */,
 				55A9F99C27F1659F00C37E2A /* ContentView.swift */,
+				55A9F9C427F16CC900C37E2A /* City.swift */,
+				55A9F9C627F16F1000C37E2A /* CityRowView.swift */,
+				55A9F9C827F172AA00C37E2A /* CityListView.swift */,
+				55A591BE27FCB0ED001B3C67 /* PhotoPicker.swift */,
+				55DF8AD927F272A20036BD50 /* AddButton.swift */,
+				55DF8AD727F272170036BD50 /* AddView.swift */,
+				55A9F9CA27F173F900C37E2A /* CityDetailView.swift */,
+				55DF8AD527F2588E0036BD50 /* FavoriteButtonView.swift */,
 				55A9F99E27F1659F00C37E2A /* Assets.xcassets */,
 				55A9F9A027F1659F00C37E2A /* Preview Content */,
 			);
@@ -257,8 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A9F9C727F16F1000C37E2A /* CityRowView.swift in Sources */,
+				55A9F9C927F172AA00C37E2A /* CityListView.swift in Sources */,
 				55A9F99D27F1659F00C37E2A /* ContentView.swift in Sources */,
+				55DF8ADA27F272A20036BD50 /* AddButton.swift in Sources */,
 				55A9F99B27F1659F00C37E2A /* Project2App.swift in Sources */,
+				55DF8AD827F272170036BD50 /* AddView.swift in Sources */,
+				55A9F9CB27F173F900C37E2A /* CityDetailView.swift in Sources */,
+				55A9F9C527F16CC900C37E2A /* City.swift in Sources */,
+				55A591BF27FCB0ED001B3C67 /* PhotoPicker.swift in Sources */,
+				55DF8AD627F2588E0036BD50 /* FavoriteButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
